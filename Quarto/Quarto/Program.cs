@@ -19,4 +19,10 @@ namespace Quarto
             Application.Run(new Form1());
         }
     }
+
+    public static class global
+    {
+        public static string player1;
+        public static string player2;
+    }
 }

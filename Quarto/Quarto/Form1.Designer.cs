@@ -50,6 +50,7 @@
             this.jatekos1.Name = "jatekos1";
             this.jatekos1.Size = new System.Drawing.Size(100, 20);
             this.jatekos1.TabIndex = 1;
+            this.jatekos1.Text = "boros";
             // 
             // jatekos2
             // 
@@ -57,6 +58,7 @@
             this.jatekos2.Name = "jatekos2";
             this.jatekos2.Size = new System.Drawing.Size(100, 20);
             this.jatekos2.TabIndex = 2;
+            this.jatekos2.Text = "miklos";
             // 
             // Form1
             // 
