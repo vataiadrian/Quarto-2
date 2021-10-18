@@ -77,6 +77,7 @@
             this.guna2GradientCircleButton11.Size = new System.Drawing.Size(100, 100);
             this.guna2GradientCircleButton11.TabIndex = 10;
             this.guna2GradientCircleButton11.Text = "guna2GradientCircleButton11";
+            this.guna2GradientCircleButton11.UseTransparentBackground = true;
             // 
             // guna2GradientCircleButton12
             // 
@@ -107,6 +108,7 @@
             this.guna2GradientCircleButton12.Size = new System.Drawing.Size(100, 100);
             this.guna2GradientCircleButton12.TabIndex = 11;
             this.guna2GradientCircleButton12.Text = "guna2GradientCircleButton12";
+            this.guna2GradientCircleButton12.UseTransparentBackground = true;
             // 
             // guna2GradientCircleButton13
             // 
@@ -137,6 +139,7 @@
             this.guna2GradientCircleButton13.Size = new System.Drawing.Size(100, 100);
             this.guna2GradientCircleButton13.TabIndex = 12;
             this.guna2GradientCircleButton13.Text = "guna2GradientCircleButton13";
+            this.guna2GradientCircleButton13.UseTransparentBackground = true;
             // 
             // guna2GradientCircleButton14
             // 
@@ -167,6 +170,7 @@
             this.guna2GradientCircleButton14.Size = new System.Drawing.Size(100, 100);
             this.guna2GradientCircleButton14.TabIndex = 13;
             this.guna2GradientCircleButton14.Text = "guna2GradientCircleButton14";
+            this.guna2GradientCircleButton14.UseTransparentBackground = true;
             // 
             // guna2GradientCircleButton15
             // 
@@ -197,6 +201,7 @@
             this.guna2GradientCircleButton15.Size = new System.Drawing.Size(100, 100);
             this.guna2GradientCircleButton15.TabIndex = 14;
             this.guna2GradientCircleButton15.Text = "guna2GradientCircleButton15";
+            this.guna2GradientCircleButton15.UseTransparentBackground = true;
             // 
             // guna2GradientCircleButton16
             // 
@@ -227,6 +232,7 @@
             this.guna2GradientCircleButton16.Size = new System.Drawing.Size(100, 100);
             this.guna2GradientCircleButton16.TabIndex = 15;
             this.guna2GradientCircleButton16.Text = "guna2GradientCircleButton16";
+            this.guna2GradientCircleButton16.UseTransparentBackground = true;
             // 
             // panel1
             // 
@@ -280,6 +286,7 @@
             this.guna2GradientCircleButton10.Size = new System.Drawing.Size(100, 100);
             this.guna2GradientCircleButton10.TabIndex = 9;
             this.guna2GradientCircleButton10.Text = "guna2GradientCircleButton10";
+            this.guna2GradientCircleButton10.UseTransparentBackground = true;
             // 
             // guna2GradientCircleButton9
             // 
@@ -310,6 +317,7 @@
             this.guna2GradientCircleButton9.Size = new System.Drawing.Size(100, 100);
             this.guna2GradientCircleButton9.TabIndex = 8;
             this.guna2GradientCircleButton9.Text = "guna2GradientCircleButton9";
+            this.guna2GradientCircleButton9.UseTransparentBackground = true;
             // 
             // guna2GradientCircleButton5
             // 
@@ -340,6 +348,7 @@
             this.guna2GradientCircleButton5.Size = new System.Drawing.Size(100, 100);
             this.guna2GradientCircleButton5.TabIndex = 4;
             this.guna2GradientCircleButton5.Text = "guna2GradientCircleButton5";
+            this.guna2GradientCircleButton5.UseTransparentBackground = true;
             // 
             // guna2GradientCircleButton6
             // 
@@ -370,6 +379,7 @@
             this.guna2GradientCircleButton6.Size = new System.Drawing.Size(100, 100);
             this.guna2GradientCircleButton6.TabIndex = 5;
             this.guna2GradientCircleButton6.Text = "guna2GradientCircleButton6";
+            this.guna2GradientCircleButton6.UseTransparentBackground = true;
             // 
             // guna2GradientCircleButton7
             // 
@@ -400,6 +410,7 @@
             this.guna2GradientCircleButton7.Size = new System.Drawing.Size(100, 100);
             this.guna2GradientCircleButton7.TabIndex = 6;
             this.guna2GradientCircleButton7.Text = "guna2GradientCircleButton7";
+            this.guna2GradientCircleButton7.UseTransparentBackground = true;
             // 
             // guna2GradientCircleButton8
             // 
@@ -430,6 +441,7 @@
             this.guna2GradientCircleButton8.Size = new System.Drawing.Size(100, 100);
             this.guna2GradientCircleButton8.TabIndex = 7;
             this.guna2GradientCircleButton8.Text = "guna2GradientCircleButton8";
+            this.guna2GradientCircleButton8.UseTransparentBackground = true;
             // 
             // guna2GradientCircleButton4
             // 
@@ -460,6 +472,7 @@
             this.guna2GradientCircleButton4.Size = new System.Drawing.Size(100, 100);
             this.guna2GradientCircleButton4.TabIndex = 3;
             this.guna2GradientCircleButton4.Text = "guna2GradientCircleButton4";
+            this.guna2GradientCircleButton4.UseTransparentBackground = true;
             // 
             // guna2GradientCircleButton3
             // 
@@ -490,6 +503,7 @@
             this.guna2GradientCircleButton3.Size = new System.Drawing.Size(100, 100);
             this.guna2GradientCircleButton3.TabIndex = 2;
             this.guna2GradientCircleButton3.Text = "guna2GradientCircleButton3";
+            this.guna2GradientCircleButton3.UseTransparentBackground = true;
             // 
             // guna2GradientCircleButton2
             // 
@@ -520,6 +534,7 @@
             this.guna2GradientCircleButton2.Size = new System.Drawing.Size(100, 100);
             this.guna2GradientCircleButton2.TabIndex = 1;
             this.guna2GradientCircleButton2.Text = "guna2GradientCircleButton2";
+            this.guna2GradientCircleButton2.UseTransparentBackground = true;
             // 
             // guna2GradientCircleButton1
             // 
@@ -550,6 +565,7 @@
             this.guna2GradientCircleButton1.Size = new System.Drawing.Size(100, 100);
             this.guna2GradientCircleButton1.TabIndex = 0;
             this.guna2GradientCircleButton1.Text = "guna2GradientCircleButton1";
+            this.guna2GradientCircleButton1.UseTransparentBackground = true;
             // 
             // Form2
             // 

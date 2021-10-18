@@ -1,0 +1,12 @@
+C:\Users\borosbarnabas\Source\Repos\Quarto-2\Quarto\Quarto\obj\Debug\Quarto.csprojAssemblyReference.cache
+C:\Users\borosbarnabas\Source\Repos\Quarto-2\Quarto\Quarto\obj\Debug\Quarto.Form2.resources
+C:\Users\borosbarnabas\Source\Repos\Quarto-2\Quarto\Quarto\obj\Debug\Quarto.Properties.Resources.resources
+C:\Users\borosbarnabas\Source\Repos\Quarto-2\Quarto\Quarto\obj\Debug\Quarto.csproj.GenerateResource.cache
+C:\Users\borosbarnabas\Source\Repos\Quarto-2\Quarto\Quarto\obj\Debug\Quarto.csproj.CoreCompileInputs.cache
+C:\Users\borosbarnabas\Source\Repos\Quarto-2\Quarto\Quarto\bin\Debug\Quarto.exe.config
+C:\Users\borosbarnabas\Source\Repos\Quarto-2\Quarto\Quarto\bin\Debug\Quarto.exe
+C:\Users\borosbarnabas\Source\Repos\Quarto-2\Quarto\Quarto\bin\Debug\Quarto.pdb
+C:\Users\borosbarnabas\Source\Repos\Quarto-2\Quarto\Quarto\bin\Debug\Guna.UI2.dll
+C:\Users\borosbarnabas\Source\Repos\Quarto-2\Quarto\Quarto\obj\Debug\Quarto.csproj.CopyComplete
+C:\Users\borosbarnabas\Source\Repos\Quarto-2\Quarto\Quarto\obj\Debug\Quarto.exe
+C:\Users\borosbarnabas\Source\Repos\Quarto-2\Quarto\Quarto\obj\Debug\Quarto.pdb
