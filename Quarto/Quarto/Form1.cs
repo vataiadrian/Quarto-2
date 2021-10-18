@@ -24,24 +24,24 @@ namespace Quarto
             player1 = jatekos1.Text;
             player2 = jatekos2.Text;
 
-
-
-
-            if (player1 != "" && player2 != "")
+            if (player1 == "" || player2 == "")
             {
-                global.player1 = player1;
-                global.player1 = player2;
-                Form2 jatekter = new Form2();
-                this.Hide();
-                jatekter.ShowDialog(this);
-            }
-            else if (player1 == player2)
-            {
-                MessageBox.Show("Kérem két különböző nevet adjon meg!", "Megegyező név", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Kérem adja meg a nevét!", "Hiányzó név", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
-                MessageBox.Show("Kérem adja meg a nevét!", "Hiányzó név", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                if (player1 == player2)
+                {
+                    MessageBox.Show("Kérem adjon meg különböző neveket!", "Megegyező név", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    global.player1 = player1;
+                    global.player2 = player2;
+                    Form2 jatekter = new Form2();
+                    this.Hide();
+                    jatekter.ShowDialog(this);
+                }
             }
         }
     }

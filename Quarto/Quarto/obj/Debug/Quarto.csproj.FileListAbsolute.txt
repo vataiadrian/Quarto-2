@@ -25,3 +25,4 @@ C:\Users\borosbarnabas\Source\Repos\Quarto-2\Quarto\Quarto\obj\Debug\Quarto.cspr
 C:\Users\borosbarnabas\Source\Repos\Quarto-2\Quarto\Quarto\obj\Debug\Quarto.exe
 C:\Users\borosbarnabas\Source\Repos\Quarto-2\Quarto\Quarto\obj\Debug\Quarto.pdb
 >>>>>>> 4c530d340e5095f60516ded6562bdb8890d19b5f
+C:\Users\vataiadrianzsolt\source\repos\Quarto-2\Quarto\Quarto\obj\Debug\Quarto.Form1.resources

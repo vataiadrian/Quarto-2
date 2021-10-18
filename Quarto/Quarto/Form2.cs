@@ -12,7 +12,7 @@ namespace Quarto
 {
     public partial class Form2 : Form
     {
-        static bool elso = true;
+        //static bool elso = true;
         public Form2()
         {
             InitializeComponent();
