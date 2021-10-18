@@ -38,10 +38,12 @@ namespace Quarto
                 {
                     if (!esc)
                     {
+                        menupanel.Visible = true;
                         esc = true;
                     }
                     else
                     {
+                        menupanel.Visible = false;
                         esc = false;
                     }
                 }
