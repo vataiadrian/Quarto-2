@@ -39,47 +39,14 @@ namespace Quarto
                 {
                     if (!esc)
                     {
-                        guna2Button1.SendToBack();
-                        guna2Button2.SendToBack();
-                        guna2Button3.SendToBack();
-                        guna2Button4.SendToBack();
-                        guna2Button5.SendToBack();
-                        guna2Button6.SendToBack();
-                        guna2Button7.SendToBack();
-                        guna2Button8.SendToBack();
-                        guna2Button9.SendToBack();
-                        guna2Button10.SendToBack();
-                        guna2Button11.SendToBack();
-                        guna2Button12.SendToBack();
-                        guna2Button13.SendToBack();
-                        guna2Button14.SendToBack();
-                        guna2Button15.SendToBack();
-                        guna2Button16.SendToBack();
-                        
+                        menupanel.Visible = true;
+                        guna2CustomGradientPanel1.Visible = false;
                         esc = true;
                     }
                     else
                     {
-                        guna2Button1.BringToFront();
-                        guna2Button2.BringToFront();
-                        guna2Button3.BringToFront();
-                        guna2Button4.BringToFront();
-                        guna2Button5.BringToFront();
-                        guna2Button6.BringToFront();
-                        guna2Button7.BringToFront();
-                        guna2Button8.BringToFront();
-                        guna2Button9.BringToFront();
-                        guna2Button10.BringToFront();
-                        guna2Button11.BringToFront();
-                        guna2Button12.BringToFront();
-                        guna2Button13.BringToFront();
-                        guna2Button14.BringToFront();
-                        guna2Button15.BringToFront();
-                        guna2Button16.BringToFront();
-                        kilepesbtn.SendToBack();
-                        ujjatekbtn.SendToBack();
-                        folytatasbtn.SendToBack();
-                        menubtn.SendToBack();
+                        menupanel.Visible = false;
+                        guna2CustomGradientPanel1.Visible = true;
                         esc = false;
                     }
                 }
