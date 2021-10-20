@@ -12,7 +12,7 @@ namespace Quarto
 {
     public partial class Form2 : Form
     {
-        //static bool elso = true;
+        static bool elso = true;
         public Form2()
         {
             InitializeComponent();
@@ -67,31 +67,31 @@ namespace Quarto
 
         private void NevekRandom()
         {
-            /*Random r = new Random();
+            Random r = new Random();
             if (r.Next(0, 6) > 3)
             {
-                labelO.Text = global.player1;
-                labelX.Text = global.player2;
+                player1label.Text = global.player1;
+                player2label.Text = global.player2;
             }
             else
             {
-                labelO.Text = global.player2;
-                labelX.Text = global.player1;
+                player1label.Text = global.player2;
+                player2label.Text = global.player1;
             }
             if (r.Next(0, 6) > 3)
             {
                 elso = false;
-                kezdojatekostbx.Font = new Font("Arial", 24);
-                kezdojatekostbx.Text = labelX.Text;
+                nextplayertbx.Font = new Font("Arial", 24);
+                nextplayertbx.Text = player2label.Text;
             }
             else
             {
                 elso = true;
-                kezdojatekostbx.Font = new Font("Arial", 24);
-                kezdojatekostbx.Text = labelO.Text;
+                nextplayertbx.Font = new Font("Arial", 24);
+                nextplayertbx.Text = player2label.Text;
 
             }
-            kezdonevlbl.Text = "";*/
+            
         }
     }
 }
