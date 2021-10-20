@@ -18,6 +18,7 @@ namespace Quarto
             InitializeComponent();
             GoFullscreen(true);
             MenuBehozas();
+            NevekRandom();
         }
 
         //design

@@ -47,12 +47,12 @@
             this.guna2Button11 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button13 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.nextplayertbx = new System.Windows.Forms.TextBox();
+            this.player1label = new System.Windows.Forms.Label();
+            this.player2label = new System.Windows.Forms.Label();
             this.guna2Button16 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button15 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button14 = new Guna.UI2.WinForms.Guna2Button();
-            this.player2label = new System.Windows.Forms.Label();
-            this.player1label = new System.Windows.Forms.Label();
-            this.nextplayertbx = new System.Windows.Forms.TextBox();
             this.menupanel.SuspendLayout();
             this.guna2CustomGradientPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -486,6 +486,38 @@
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1284, 784);
             this.guna2CustomGradientPanel1.TabIndex = 17;
             // 
+            // nextplayertbx
+            // 
+            this.nextplayertbx.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.nextplayertbx.Location = new System.Drawing.Point(413, 758);
+            this.nextplayertbx.Name = "nextplayertbx";
+            this.nextplayertbx.ReadOnly = true;
+            this.nextplayertbx.Size = new System.Drawing.Size(454, 44);
+            this.nextplayertbx.TabIndex = 48;
+            this.nextplayertbx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // player1label
+            // 
+            this.player1label.AutoSize = true;
+            this.player1label.BackColor = System.Drawing.Color.Transparent;
+            this.player1label.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.player1label.Location = new System.Drawing.Point(155, 324);
+            this.player1label.Name = "player1label";
+            this.player1label.Size = new System.Drawing.Size(76, 25);
+            this.player1label.TabIndex = 47;
+            this.player1label.Text = "label1";
+            // 
+            // player2label
+            // 
+            this.player2label.AutoSize = true;
+            this.player2label.BackColor = System.Drawing.Color.Transparent;
+            this.player2label.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.player2label.Location = new System.Drawing.Point(1083, 324);
+            this.player2label.Name = "player2label";
+            this.player2label.Size = new System.Drawing.Size(76, 25);
+            this.player2label.TabIndex = 46;
+            this.player2label.Text = "label1";
+            // 
             // guna2Button16
             // 
             this.guna2Button16.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -557,36 +589,6 @@
             this.guna2Button14.Size = new System.Drawing.Size(100, 100);
             this.guna2Button14.TabIndex = 43;
             this.guna2Button14.UseTransparentBackground = true;
-            // 
-            // player2label
-            // 
-            this.player2label.AutoSize = true;
-            this.player2label.BackColor = System.Drawing.Color.Transparent;
-            this.player2label.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.player2label.Location = new System.Drawing.Point(1083, 324);
-            this.player2label.Name = "player2label";
-            this.player2label.Size = new System.Drawing.Size(76, 25);
-            this.player2label.TabIndex = 46;
-            this.player2label.Text = "label1";
-            // 
-            // player1label
-            // 
-            this.player1label.AutoSize = true;
-            this.player1label.BackColor = System.Drawing.Color.Transparent;
-            this.player1label.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.player1label.Location = new System.Drawing.Point(155, 324);
-            this.player1label.Name = "player1label";
-            this.player1label.Size = new System.Drawing.Size(76, 25);
-            this.player1label.TabIndex = 47;
-            this.player1label.Text = "label1";
-            // 
-            // nextplayertbx
-            // 
-            this.nextplayertbx.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.nextplayertbx.Location = new System.Drawing.Point(413, 758);
-            this.nextplayertbx.Name = "nextplayertbx";
-            this.nextplayertbx.Size = new System.Drawing.Size(454, 44);
-            this.nextplayertbx.TabIndex = 48;
             // 
             // Form2
             // 
