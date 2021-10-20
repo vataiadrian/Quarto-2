@@ -47,6 +47,9 @@
             this.guna2Button11 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button13 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.nextplayertbx = new System.Windows.Forms.TextBox();
+            this.player1label = new System.Windows.Forms.Label();
+            this.player2label = new System.Windows.Forms.Label();
             this.guna2Button16 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button15 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button14 = new Guna.UI2.WinForms.Guna2Button();
@@ -60,6 +63,7 @@
             this.menupanel.Controls.Add(this.menubtn);
             this.menupanel.Controls.Add(this.folytatasbtn);
             this.menupanel.Controls.Add(this.ujjatekbtn);
+            this.menupanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.menupanel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(5)))), ((int)(((byte)(113)))));
             this.menupanel.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(180)))), ((int)(((byte)(245)))));
             this.menupanel.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(40)))), ((int)(((byte)(111)))));
@@ -450,6 +454,9 @@
             // guna2CustomGradientPanel1
             // 
             this.guna2CustomGradientPanel1.Controls.Add(this.menupanel);
+            this.guna2CustomGradientPanel1.Controls.Add(this.nextplayertbx);
+            this.guna2CustomGradientPanel1.Controls.Add(this.player1label);
+            this.guna2CustomGradientPanel1.Controls.Add(this.player2label);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2Button16);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2Button15);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2Button14);
@@ -478,6 +485,38 @@
             this.guna2CustomGradientPanel1.ShadowDecoration.Parent = this.guna2CustomGradientPanel1;
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1284, 784);
             this.guna2CustomGradientPanel1.TabIndex = 17;
+            // 
+            // nextplayertbx
+            // 
+            this.nextplayertbx.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.nextplayertbx.Location = new System.Drawing.Point(413, 758);
+            this.nextplayertbx.Name = "nextplayertbx";
+            this.nextplayertbx.ReadOnly = true;
+            this.nextplayertbx.Size = new System.Drawing.Size(454, 44);
+            this.nextplayertbx.TabIndex = 48;
+            this.nextplayertbx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // player1label
+            // 
+            this.player1label.AutoSize = true;
+            this.player1label.BackColor = System.Drawing.Color.Transparent;
+            this.player1label.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.player1label.Location = new System.Drawing.Point(155, 324);
+            this.player1label.Name = "player1label";
+            this.player1label.Size = new System.Drawing.Size(76, 25);
+            this.player1label.TabIndex = 47;
+            this.player1label.Text = "label1";
+            // 
+            // player2label
+            // 
+            this.player2label.AutoSize = true;
+            this.player2label.BackColor = System.Drawing.Color.Transparent;
+            this.player2label.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.player2label.Location = new System.Drawing.Point(1083, 324);
+            this.player2label.Name = "player2label";
+            this.player2label.Size = new System.Drawing.Size(76, 25);
+            this.player2label.TabIndex = 46;
+            this.player2label.Text = "label1";
             // 
             // guna2Button16
             // 
@@ -561,6 +600,7 @@
             this.Text = "Form2";
             this.menupanel.ResumeLayout(false);
             this.guna2CustomGradientPanel1.ResumeLayout(false);
+            this.guna2CustomGradientPanel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -588,5 +628,8 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button16;
         private Guna.UI2.WinForms.Guna2Button guna2Button15;
         private Guna.UI2.WinForms.Guna2Button guna2Button14;
+        private System.Windows.Forms.Label player1label;
+        private System.Windows.Forms.Label player2label;
+        private System.Windows.Forms.TextBox nextplayertbx;
     }
 }
