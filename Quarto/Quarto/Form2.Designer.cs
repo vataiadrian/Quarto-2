@@ -60,7 +60,6 @@
             this.menupanel.Controls.Add(this.menubtn);
             this.menupanel.Controls.Add(this.folytatasbtn);
             this.menupanel.Controls.Add(this.ujjatekbtn);
-            this.menupanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.menupanel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(5)))), ((int)(((byte)(113)))));
             this.menupanel.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(180)))), ((int)(((byte)(245)))));
             this.menupanel.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(40)))), ((int)(((byte)(111)))));

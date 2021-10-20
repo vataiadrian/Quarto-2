@@ -40,13 +40,11 @@ namespace Quarto
                     if (!esc)
                     {
                         menupanel.Visible = true;
-                        guna2CustomGradientPanel1.Visible = false;
                         esc = true;
                     }
                     else
                     {
                         menupanel.Visible = false;
-                        guna2CustomGradientPanel1.Visible = true;
                         esc = false;
                     }
                 }
