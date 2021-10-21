@@ -29,7 +29,6 @@ C:\Users\borosbarnabas\source\repos\Quarto-2\Quarto\Quarto\obj\Debug\Quarto.Form
 C:\Users\vataiadrianzsolt\source\repos\Quarto-2\Quarto\Quarto\obj\Debug\Quarto.Form1.resources
 >>>>>>> b89ad32e2f087844f764b323c4f422be7fc15d13
 C:\Users\borosbarnabas\Source\Repos\Quarto-2\Quarto\Quarto\obj\Debug\Quarto.csproj.AssemblyReference.cache
-<<<<<<< HEAD
 C:\Users\borosbarnabas\source\repos\Quarto2\Quarto\Quarto\bin\Debug\Quarto.exe.config
 C:\Users\borosbarnabas\source\repos\Quarto2\Quarto\Quarto\bin\Debug\Quarto.exe
 C:\Users\borosbarnabas\source\repos\Quarto2\Quarto\Quarto\bin\Debug\Quarto.pdb
@@ -43,7 +42,6 @@ C:\Users\borosbarnabas\source\repos\Quarto2\Quarto\Quarto\obj\Debug\Quarto.cspro
 C:\Users\borosbarnabas\source\repos\Quarto2\Quarto\Quarto\obj\Debug\Quarto.csproj.CopyComplete
 C:\Users\borosbarnabas\source\repos\Quarto2\Quarto\Quarto\obj\Debug\Quarto.exe
 C:\Users\borosbarnabas\source\repos\Quarto2\Quarto\Quarto\obj\Debug\Quarto.pdb
-=======
 C:\Users\szevaldmiklosdaniel\Source\Repos\Quarto-2\Quarto\Quarto\bin\Debug\Quarto.exe.config
 C:\Users\szevaldmiklosdaniel\Source\Repos\Quarto-2\Quarto\Quarto\bin\Debug\Quarto.exe
 C:\Users\szevaldmiklosdaniel\Source\Repos\Quarto-2\Quarto\Quarto\bin\Debug\Quarto.pdb

@@ -53,8 +53,40 @@
             this.guna2Button16 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button15 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button14 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2CirclePictureBox4 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2CirclePictureBox9 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2CirclePictureBox10 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2CirclePictureBox11 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2CirclePictureBox12 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2CirclePictureBox5 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2CirclePictureBox6 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2CirclePictureBox7 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2CirclePictureBox8 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2CirclePictureBox13 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2CirclePictureBox14 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2CirclePictureBox15 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2CirclePictureBox16 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.menupanel.SuspendLayout();
             this.guna2CustomGradientPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox16)).BeginInit();
             this.SuspendLayout();
             // 
             // menupanel
@@ -63,13 +95,12 @@
             this.menupanel.Controls.Add(this.menubtn);
             this.menupanel.Controls.Add(this.folytatasbtn);
             this.menupanel.Controls.Add(this.ujjatekbtn);
-            this.menupanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.menupanel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(5)))), ((int)(((byte)(113)))));
             this.menupanel.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(180)))), ((int)(((byte)(245)))));
             this.menupanel.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(40)))), ((int)(((byte)(111)))));
             this.menupanel.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(0)))), ((int)(((byte)(80)))));
             this.menupanel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.menupanel.Location = new System.Drawing.Point(71, 155);
+            this.menupanel.Location = new System.Drawing.Point(483, 163);
             this.menupanel.Name = "menupanel";
             this.menupanel.Quality = 2;
             this.menupanel.ShadowDecoration.Parent = this.menupanel;
@@ -453,7 +484,20 @@
             // 
             // guna2CustomGradientPanel1
             // 
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox5);
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox6);
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox7);
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox8);
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox13);
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox14);
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox15);
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox16);
             this.guna2CustomGradientPanel1.Controls.Add(this.menupanel);
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox9);
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox4);
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox3);
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox2);
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox1);
             this.guna2CustomGradientPanel1.Controls.Add(this.nextplayertbx);
             this.guna2CustomGradientPanel1.Controls.Add(this.player1label);
             this.guna2CustomGradientPanel1.Controls.Add(this.player2label);
@@ -473,6 +517,9 @@
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2Button3);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2Button2);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2Button1);
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox10);
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox11);
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox12);
             this.guna2CustomGradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(5)))), ((int)(((byte)(113)))));
             this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(180)))), ((int)(((byte)(245)))));
@@ -590,6 +637,246 @@
             this.guna2Button14.TabIndex = 43;
             this.guna2Button14.UseTransparentBackground = true;
             // 
+            // guna2CirclePictureBox1
+            // 
+            this.guna2CirclePictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox1.FillColor = System.Drawing.Color.Black;
+            this.guna2CirclePictureBox1.ImageRotate = 0F;
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(951, 326);
+            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox1.ShadowDecoration.Parent = this.guna2CirclePictureBox1;
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(50, 50);
+            this.guna2CirclePictureBox1.TabIndex = 49;
+            this.guna2CirclePictureBox1.TabStop = false;
+            this.guna2CirclePictureBox1.UseTransparentBackground = true;
+            // 
+            // guna2CirclePictureBox2
+            // 
+            this.guna2CirclePictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.guna2CirclePictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox2.FillColor = System.Drawing.Color.Black;
+            this.guna2CirclePictureBox2.ImageRotate = 0F;
+            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(883, 270);
+            this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
+            this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox2.ShadowDecoration.Parent = this.guna2CirclePictureBox2;
+            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(50, 50);
+            this.guna2CirclePictureBox2.TabIndex = 50;
+            this.guna2CirclePictureBox2.TabStop = false;
+            this.guna2CirclePictureBox2.UseTransparentBackground = true;
+            // 
+            // guna2CirclePictureBox3
+            // 
+            this.guna2CirclePictureBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.guna2CirclePictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox3.FillColor = System.Drawing.Color.Black;
+            this.guna2CirclePictureBox3.ImageRotate = 0F;
+            this.guna2CirclePictureBox3.Location = new System.Drawing.Point(883, 326);
+            this.guna2CirclePictureBox3.Name = "guna2CirclePictureBox3";
+            this.guna2CirclePictureBox3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox3.ShadowDecoration.Parent = this.guna2CirclePictureBox3;
+            this.guna2CirclePictureBox3.Size = new System.Drawing.Size(50, 50);
+            this.guna2CirclePictureBox3.TabIndex = 51;
+            this.guna2CirclePictureBox3.TabStop = false;
+            this.guna2CirclePictureBox3.UseTransparentBackground = true;
+            // 
+            // guna2CirclePictureBox4
+            // 
+            this.guna2CirclePictureBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.guna2CirclePictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox4.FillColor = System.Drawing.Color.Black;
+            this.guna2CirclePictureBox4.ImageRotate = 0F;
+            this.guna2CirclePictureBox4.Location = new System.Drawing.Point(883, 382);
+            this.guna2CirclePictureBox4.Name = "guna2CirclePictureBox4";
+            this.guna2CirclePictureBox4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox4.ShadowDecoration.Parent = this.guna2CirclePictureBox4;
+            this.guna2CirclePictureBox4.Size = new System.Drawing.Size(50, 50);
+            this.guna2CirclePictureBox4.TabIndex = 52;
+            this.guna2CirclePictureBox4.TabStop = false;
+            this.guna2CirclePictureBox4.UseTransparentBackground = true;
+            // 
+            // guna2CirclePictureBox9
+            // 
+            this.guna2CirclePictureBox9.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.guna2CirclePictureBox9.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox9.FillColor = System.Drawing.Color.Black;
+            this.guna2CirclePictureBox9.ImageRotate = 0F;
+            this.guna2CirclePictureBox9.Location = new System.Drawing.Point(951, 438);
+            this.guna2CirclePictureBox9.Name = "guna2CirclePictureBox9";
+            this.guna2CirclePictureBox9.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox9.ShadowDecoration.Parent = this.guna2CirclePictureBox9;
+            this.guna2CirclePictureBox9.Size = new System.Drawing.Size(50, 50);
+            this.guna2CirclePictureBox9.TabIndex = 57;
+            this.guna2CirclePictureBox9.TabStop = false;
+            this.guna2CirclePictureBox9.UseTransparentBackground = true;
+            // 
+            // guna2CirclePictureBox10
+            // 
+            this.guna2CirclePictureBox10.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.guna2CirclePictureBox10.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox10.FillColor = System.Drawing.Color.Black;
+            this.guna2CirclePictureBox10.ImageRotate = 0F;
+            this.guna2CirclePictureBox10.Location = new System.Drawing.Point(951, 270);
+            this.guna2CirclePictureBox10.Name = "guna2CirclePictureBox10";
+            this.guna2CirclePictureBox10.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox10.ShadowDecoration.Parent = this.guna2CirclePictureBox10;
+            this.guna2CirclePictureBox10.Size = new System.Drawing.Size(50, 50);
+            this.guna2CirclePictureBox10.TabIndex = 58;
+            this.guna2CirclePictureBox10.TabStop = false;
+            this.guna2CirclePictureBox10.UseTransparentBackground = true;
+            // 
+            // guna2CirclePictureBox11
+            // 
+            this.guna2CirclePictureBox11.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.guna2CirclePictureBox11.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox11.FillColor = System.Drawing.Color.Black;
+            this.guna2CirclePictureBox11.ImageRotate = 0F;
+            this.guna2CirclePictureBox11.Location = new System.Drawing.Point(951, 382);
+            this.guna2CirclePictureBox11.Name = "guna2CirclePictureBox11";
+            this.guna2CirclePictureBox11.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox11.ShadowDecoration.Parent = this.guna2CirclePictureBox11;
+            this.guna2CirclePictureBox11.Size = new System.Drawing.Size(50, 50);
+            this.guna2CirclePictureBox11.TabIndex = 59;
+            this.guna2CirclePictureBox11.TabStop = false;
+            this.guna2CirclePictureBox11.UseTransparentBackground = true;
+            // 
+            // guna2CirclePictureBox12
+            // 
+            this.guna2CirclePictureBox12.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.guna2CirclePictureBox12.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox12.FillColor = System.Drawing.Color.Black;
+            this.guna2CirclePictureBox12.ImageRotate = 0F;
+            this.guna2CirclePictureBox12.Location = new System.Drawing.Point(883, 438);
+            this.guna2CirclePictureBox12.Name = "guna2CirclePictureBox12";
+            this.guna2CirclePictureBox12.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox12.ShadowDecoration.Parent = this.guna2CirclePictureBox12;
+            this.guna2CirclePictureBox12.Size = new System.Drawing.Size(50, 50);
+            this.guna2CirclePictureBox12.TabIndex = 60;
+            this.guna2CirclePictureBox12.TabStop = false;
+            this.guna2CirclePictureBox12.UseTransparentBackground = true;
+            // 
+            // guna2CirclePictureBox5
+            // 
+            this.guna2CirclePictureBox5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.guna2CirclePictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox5.FillColor = System.Drawing.Color.Black;
+            this.guna2CirclePictureBox5.ImageRotate = 0F;
+            this.guna2CirclePictureBox5.Location = new System.Drawing.Point(350, 438);
+            this.guna2CirclePictureBox5.Name = "guna2CirclePictureBox5";
+            this.guna2CirclePictureBox5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox5.ShadowDecoration.Parent = this.guna2CirclePictureBox5;
+            this.guna2CirclePictureBox5.Size = new System.Drawing.Size(50, 50);
+            this.guna2CirclePictureBox5.TabIndex = 65;
+            this.guna2CirclePictureBox5.TabStop = false;
+            this.guna2CirclePictureBox5.UseTransparentBackground = true;
+            // 
+            // guna2CirclePictureBox6
+            // 
+            this.guna2CirclePictureBox6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.guna2CirclePictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox6.FillColor = System.Drawing.Color.Black;
+            this.guna2CirclePictureBox6.ImageRotate = 0F;
+            this.guna2CirclePictureBox6.Location = new System.Drawing.Point(282, 382);
+            this.guna2CirclePictureBox6.Name = "guna2CirclePictureBox6";
+            this.guna2CirclePictureBox6.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox6.ShadowDecoration.Parent = this.guna2CirclePictureBox6;
+            this.guna2CirclePictureBox6.Size = new System.Drawing.Size(50, 50);
+            this.guna2CirclePictureBox6.TabIndex = 64;
+            this.guna2CirclePictureBox6.TabStop = false;
+            this.guna2CirclePictureBox6.UseTransparentBackground = true;
+            // 
+            // guna2CirclePictureBox7
+            // 
+            this.guna2CirclePictureBox7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.guna2CirclePictureBox7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox7.FillColor = System.Drawing.Color.Black;
+            this.guna2CirclePictureBox7.ImageRotate = 0F;
+            this.guna2CirclePictureBox7.Location = new System.Drawing.Point(282, 326);
+            this.guna2CirclePictureBox7.Name = "guna2CirclePictureBox7";
+            this.guna2CirclePictureBox7.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox7.ShadowDecoration.Parent = this.guna2CirclePictureBox7;
+            this.guna2CirclePictureBox7.Size = new System.Drawing.Size(50, 50);
+            this.guna2CirclePictureBox7.TabIndex = 63;
+            this.guna2CirclePictureBox7.TabStop = false;
+            this.guna2CirclePictureBox7.UseTransparentBackground = true;
+            // 
+            // guna2CirclePictureBox8
+            // 
+            this.guna2CirclePictureBox8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.guna2CirclePictureBox8.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox8.FillColor = System.Drawing.Color.Black;
+            this.guna2CirclePictureBox8.ImageRotate = 0F;
+            this.guna2CirclePictureBox8.Location = new System.Drawing.Point(282, 270);
+            this.guna2CirclePictureBox8.Name = "guna2CirclePictureBox8";
+            this.guna2CirclePictureBox8.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox8.ShadowDecoration.Parent = this.guna2CirclePictureBox8;
+            this.guna2CirclePictureBox8.Size = new System.Drawing.Size(50, 50);
+            this.guna2CirclePictureBox8.TabIndex = 62;
+            this.guna2CirclePictureBox8.TabStop = false;
+            this.guna2CirclePictureBox8.UseTransparentBackground = true;
+            // 
+            // guna2CirclePictureBox13
+            // 
+            this.guna2CirclePictureBox13.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.guna2CirclePictureBox13.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox13.FillColor = System.Drawing.Color.Black;
+            this.guna2CirclePictureBox13.ImageRotate = 0F;
+            this.guna2CirclePictureBox13.Location = new System.Drawing.Point(350, 326);
+            this.guna2CirclePictureBox13.Name = "guna2CirclePictureBox13";
+            this.guna2CirclePictureBox13.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox13.ShadowDecoration.Parent = this.guna2CirclePictureBox13;
+            this.guna2CirclePictureBox13.Size = new System.Drawing.Size(50, 50);
+            this.guna2CirclePictureBox13.TabIndex = 61;
+            this.guna2CirclePictureBox13.TabStop = false;
+            this.guna2CirclePictureBox13.UseTransparentBackground = true;
+            // 
+            // guna2CirclePictureBox14
+            // 
+            this.guna2CirclePictureBox14.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.guna2CirclePictureBox14.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox14.FillColor = System.Drawing.Color.Black;
+            this.guna2CirclePictureBox14.ImageRotate = 0F;
+            this.guna2CirclePictureBox14.Location = new System.Drawing.Point(350, 270);
+            this.guna2CirclePictureBox14.Name = "guna2CirclePictureBox14";
+            this.guna2CirclePictureBox14.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox14.ShadowDecoration.Parent = this.guna2CirclePictureBox14;
+            this.guna2CirclePictureBox14.Size = new System.Drawing.Size(50, 50);
+            this.guna2CirclePictureBox14.TabIndex = 66;
+            this.guna2CirclePictureBox14.TabStop = false;
+            this.guna2CirclePictureBox14.UseTransparentBackground = true;
+            // 
+            // guna2CirclePictureBox15
+            // 
+            this.guna2CirclePictureBox15.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.guna2CirclePictureBox15.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox15.FillColor = System.Drawing.Color.Black;
+            this.guna2CirclePictureBox15.ImageRotate = 0F;
+            this.guna2CirclePictureBox15.Location = new System.Drawing.Point(350, 382);
+            this.guna2CirclePictureBox15.Name = "guna2CirclePictureBox15";
+            this.guna2CirclePictureBox15.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox15.ShadowDecoration.Parent = this.guna2CirclePictureBox15;
+            this.guna2CirclePictureBox15.Size = new System.Drawing.Size(50, 50);
+            this.guna2CirclePictureBox15.TabIndex = 67;
+            this.guna2CirclePictureBox15.TabStop = false;
+            this.guna2CirclePictureBox15.UseTransparentBackground = true;
+            // 
+            // guna2CirclePictureBox16
+            // 
+            this.guna2CirclePictureBox16.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.guna2CirclePictureBox16.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox16.FillColor = System.Drawing.Color.Black;
+            this.guna2CirclePictureBox16.ImageRotate = 0F;
+            this.guna2CirclePictureBox16.Location = new System.Drawing.Point(282, 438);
+            this.guna2CirclePictureBox16.Name = "guna2CirclePictureBox16";
+            this.guna2CirclePictureBox16.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox16.ShadowDecoration.Parent = this.guna2CirclePictureBox16;
+            this.guna2CirclePictureBox16.Size = new System.Drawing.Size(50, 50);
+            this.guna2CirclePictureBox16.TabIndex = 68;
+            this.guna2CirclePictureBox16.TabStop = false;
+            this.guna2CirclePictureBox16.UseTransparentBackground = true;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -601,6 +888,22 @@
             this.menupanel.ResumeLayout(false);
             this.guna2CustomGradientPanel1.ResumeLayout(false);
             this.guna2CustomGradientPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox16)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -631,5 +934,21 @@
         private System.Windows.Forms.Label player1label;
         private System.Windows.Forms.Label player2label;
         private System.Windows.Forms.TextBox nextplayertbx;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox9;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox4;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox3;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox2;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox10;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox11;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox12;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox5;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox6;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox7;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox8;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox13;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox14;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox15;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox16;
     }
 }
