@@ -61,7 +61,6 @@ namespace Quarto
 
         private void keszitbttn_Click(object sender, EventArgs e)
         {
-            keszitpnl.Visible = true;
             keszitokpnl.Visible = true;
             keszitlbl.Visible = true;
             szevaldlbl.Visible = true;
@@ -72,7 +71,6 @@ namespace Quarto
 
         private void visszabtn_Click(object sender, EventArgs e)
         {
-            keszitpnl.Visible = false;
             keszitokpnl.Visible = false;
             keszitlbl.Visible = false;
             szevaldlbl.Visible = false;
