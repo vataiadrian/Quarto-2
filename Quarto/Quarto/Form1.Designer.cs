@@ -104,7 +104,7 @@
             // 
             // visszabtn
             // 
-            this.visszabtn.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.visszabtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.visszabtn.BackColor = System.Drawing.Color.Transparent;
             this.visszabtn.FlatAppearance.BorderSize = 3;
             this.visszabtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
