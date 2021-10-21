@@ -508,6 +508,7 @@
             this.player1label.Size = new System.Drawing.Size(76, 25);
             this.player1label.TabIndex = 47;
             this.player1label.Text = "label1";
+            this.player1label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             // 
             // player2label
             // 
@@ -520,6 +521,7 @@
             this.player2label.Size = new System.Drawing.Size(76, 25);
             this.player2label.TabIndex = 46;
             this.player2label.Text = "label1";
+            this.player2label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             // 
             // guna2Button16
             // 
