@@ -535,6 +535,7 @@
             // 
             // nextplayertbx
             // 
+            this.nextplayertbx.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.nextplayertbx.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.nextplayertbx.Location = new System.Drawing.Point(413, 758);
             this.nextplayertbx.Name = "nextplayertbx";
@@ -545,6 +546,7 @@
             // 
             // player1label
             // 
+            this.player1label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.player1label.AutoSize = true;
             this.player1label.BackColor = System.Drawing.Color.Transparent;
             this.player1label.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
@@ -556,6 +558,7 @@
             // 
             // player2label
             // 
+            this.player2label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.player2label.AutoSize = true;
             this.player2label.BackColor = System.Drawing.Color.Transparent;
             this.player2label.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
