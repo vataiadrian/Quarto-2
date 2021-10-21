@@ -17,6 +17,20 @@ namespace Quarto
         public Form1()
         {
             InitializeComponent();
+            GoFullscreen(true);
+        }
+
+        //design
+        private void GoFullscreen(bool fullscreen)
+        {
+            this.WindowState = FormWindowState.Maximized;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Bounds = Screen.PrimaryScreen.Bounds;
+        }
+
+        private void kilepesbtn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
 
         private void newgameBTTN_Click(object sender, EventArgs e)

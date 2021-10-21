@@ -69,11 +69,11 @@
             this.menupanel.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(40)))), ((int)(((byte)(111)))));
             this.menupanel.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(0)))), ((int)(((byte)(80)))));
             this.menupanel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.menupanel.Location = new System.Drawing.Point(0, 0);
+            this.menupanel.Location = new System.Drawing.Point(71, 155);
             this.menupanel.Name = "menupanel";
             this.menupanel.Quality = 2;
             this.menupanel.ShadowDecoration.Parent = this.menupanel;
-            this.menupanel.Size = new System.Drawing.Size(1284, 784);
+            this.menupanel.Size = new System.Drawing.Size(314, 380);
             this.menupanel.TabIndex = 18;
             this.menupanel.Visible = false;
             // 
@@ -85,7 +85,7 @@
             this.kilepesbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.kilepesbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.kilepesbtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.kilepesbtn.Location = new System.Drawing.Point(494, 474);
+            this.kilepesbtn.Location = new System.Drawing.Point(9, 272);
             this.kilepesbtn.Name = "kilepesbtn";
             this.kilepesbtn.Size = new System.Drawing.Size(296, 67);
             this.kilepesbtn.TabIndex = 4;
@@ -101,7 +101,7 @@
             this.menubtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.menubtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.menubtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.menubtn.Location = new System.Drawing.Point(494, 386);
+            this.menubtn.Location = new System.Drawing.Point(9, 184);
             this.menubtn.Name = "menubtn";
             this.menubtn.Size = new System.Drawing.Size(296, 67);
             this.menubtn.TabIndex = 3;
@@ -117,7 +117,7 @@
             this.folytatasbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.folytatasbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.folytatasbtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.folytatasbtn.Location = new System.Drawing.Point(494, 298);
+            this.folytatasbtn.Location = new System.Drawing.Point(9, 96);
             this.folytatasbtn.Name = "folytatasbtn";
             this.folytatasbtn.Size = new System.Drawing.Size(296, 67);
             this.folytatasbtn.TabIndex = 2;
@@ -132,7 +132,7 @@
             this.ujjatekbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ujjatekbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.ujjatekbtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.ujjatekbtn.Location = new System.Drawing.Point(494, 210);
+            this.ujjatekbtn.Location = new System.Drawing.Point(9, 8);
             this.ujjatekbtn.Name = "ujjatekbtn";
             this.ujjatekbtn.Size = new System.Drawing.Size(296, 67);
             this.ujjatekbtn.TabIndex = 1;
