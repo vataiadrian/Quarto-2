@@ -33,22 +33,17 @@
             this.jatekos1 = new System.Windows.Forms.TextBox();
             this.jatekos2 = new System.Windows.Forms.TextBox();
             this.menupanel = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-<<<<<<< HEAD
-=======
-            this.visszabtn = new System.Windows.Forms.Button();
->>>>>>> aad3d80fa83127c63d67b3d32f5aba0b2baaa0b9
             this.keszitokpnl = new System.Windows.Forms.Panel();
             this.boroslbl = new System.Windows.Forms.Label();
             this.vatailbl = new System.Windows.Forms.Label();
             this.szevaldlbl = new System.Windows.Forms.Label();
             this.keszitlbl = new System.Windows.Forms.Label();
+            this.visszabtn = new System.Windows.Forms.Button();
             this.kilepesbtn = new System.Windows.Forms.Button();
             this.keszitbttn = new System.Windows.Forms.Button();
             this.folytatasbtn = new System.Windows.Forms.Button();
-<<<<<<< HEAD
-            this.visszabtn = new System.Windows.Forms.Button();
-=======
->>>>>>> aad3d80fa83127c63d67b3d32f5aba0b2baaa0b9
+            this.nev2lbl = new System.Windows.Forms.Label();
+            this.nev1lbl = new System.Windows.Forms.Label();
             this.menupanel.SuspendLayout();
             this.keszitokpnl.SuspendLayout();
             this.SuspendLayout();
@@ -71,38 +66,33 @@
             // 
             // jatekos1
             // 
-            this.jatekos1.Location = new System.Drawing.Point(134, 312);
+            this.jatekos1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.jatekos1.Location = new System.Drawing.Point(91, 107);
             this.jatekos1.Name = "jatekos1";
-            this.jatekos1.Size = new System.Drawing.Size(100, 20);
+            this.jatekos1.Size = new System.Drawing.Size(129, 38);
             this.jatekos1.TabIndex = 1;
             this.jatekos1.Text = "boros";
             this.jatekos1.Visible = false;
             // 
             // jatekos2
             // 
-            this.jatekos2.Location = new System.Drawing.Point(134, 338);
+            this.jatekos2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.jatekos2.Location = new System.Drawing.Point(91, 196);
             this.jatekos2.Name = "jatekos2";
-            this.jatekos2.Size = new System.Drawing.Size(100, 20);
+            this.jatekos2.Size = new System.Drawing.Size(129, 38);
             this.jatekos2.TabIndex = 2;
             this.jatekos2.Text = "miklos";
             this.jatekos2.Visible = false;
             // 
             // menupanel
             // 
-<<<<<<< HEAD
-            this.menupanel.Controls.Add(this.keszitokpnl);
-            this.menupanel.Controls.Add(this.visszabtn);
-=======
             this.menupanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("menupanel.BackgroundImage")));
             this.menupanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.menupanel.Controls.Add(this.visszabtn);
             this.menupanel.Controls.Add(this.keszitokpnl);
->>>>>>> aad3d80fa83127c63d67b3d32f5aba0b2baaa0b9
+            this.menupanel.Controls.Add(this.visszabtn);
             this.menupanel.Controls.Add(this.kilepesbtn);
             this.menupanel.Controls.Add(this.newgameBTTN);
-            this.menupanel.Controls.Add(this.jatekos2);
             this.menupanel.Controls.Add(this.keszitbttn);
-            this.menupanel.Controls.Add(this.jatekos1);
             this.menupanel.Controls.Add(this.folytatasbtn);
             this.menupanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.menupanel.FillColor = System.Drawing.Color.DarkBlue;
@@ -116,30 +106,14 @@
             this.menupanel.Size = new System.Drawing.Size(1053, 666);
             this.menupanel.TabIndex = 19;
             // 
-<<<<<<< HEAD
-=======
-            // visszabtn
-            // 
-            this.visszabtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.visszabtn.BackColor = System.Drawing.Color.Transparent;
-            this.visszabtn.FlatAppearance.BorderSize = 3;
-            this.visszabtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.visszabtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.visszabtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.visszabtn.Location = new System.Drawing.Point(887, 605);
-            this.visszabtn.Name = "visszabtn";
-            this.visszabtn.Size = new System.Drawing.Size(154, 49);
-            this.visszabtn.TabIndex = 19;
-            this.visszabtn.Text = "Vissza";
-            this.visszabtn.UseVisualStyleBackColor = false;
-            this.visszabtn.Visible = false;
-            this.visszabtn.Click += new System.EventHandler(this.visszabtn_Click);
-            // 
->>>>>>> aad3d80fa83127c63d67b3d32f5aba0b2baaa0b9
             // keszitokpnl
             // 
             this.keszitokpnl.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.keszitokpnl.BackColor = System.Drawing.Color.Transparent;
+            this.keszitokpnl.Controls.Add(this.nev2lbl);
+            this.keszitokpnl.Controls.Add(this.jatekos2);
+            this.keszitokpnl.Controls.Add(this.nev1lbl);
+            this.keszitokpnl.Controls.Add(this.jatekos1);
             this.keszitokpnl.Controls.Add(this.boroslbl);
             this.keszitokpnl.Controls.Add(this.vatailbl);
             this.keszitokpnl.Controls.Add(this.szevaldlbl);
@@ -202,8 +176,24 @@
             this.keszitlbl.Text = "Készítették:";
             this.keszitlbl.Visible = false;
             // 
+            // visszabtn
+            // 
+            this.visszabtn.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.visszabtn.BackColor = System.Drawing.Color.Transparent;
+            this.visszabtn.FlatAppearance.BorderSize = 3;
+            this.visszabtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.visszabtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.visszabtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.visszabtn.Location = new System.Drawing.Point(454, 605);
+            this.visszabtn.Name = "visszabtn";
+            this.visszabtn.Size = new System.Drawing.Size(154, 49);
+            this.visszabtn.TabIndex = 19;
+            this.visszabtn.Text = "Vissza";
+            this.visszabtn.UseVisualStyleBackColor = false;
+            this.visszabtn.Visible = false;
+            this.visszabtn.Click += new System.EventHandler(this.visszabtn_Click);
+            // 
             // kilepesbtn
-<<<<<<< HEAD
             // 
             this.kilepesbtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.kilepesbtn.BackColor = System.Drawing.Color.Transparent;
@@ -250,69 +240,32 @@
             this.folytatasbtn.Text = "Név megadása";
             this.folytatasbtn.UseVisualStyleBackColor = false;
             this.folytatasbtn.Click += new System.EventHandler(this.folytatasbtn_Click);
-=======
             // 
-            this.kilepesbtn.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.kilepesbtn.BackColor = System.Drawing.Color.Transparent;
-            this.kilepesbtn.FlatAppearance.BorderSize = 3;
-            this.kilepesbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.kilepesbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.kilepesbtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.kilepesbtn.Location = new System.Drawing.Point(378, 415);
-            this.kilepesbtn.Name = "kilepesbtn";
-            this.kilepesbtn.Size = new System.Drawing.Size(296, 67);
-            this.kilepesbtn.TabIndex = 4;
-            this.kilepesbtn.Text = "Kilépés";
-            this.kilepesbtn.UseVisualStyleBackColor = false;
-            this.kilepesbtn.Click += new System.EventHandler(this.kilepesbtn_Click);
+            // nev2lbl
             // 
-            // keszitbttn
+            this.nev2lbl.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.nev2lbl.AutoSize = true;
+            this.nev2lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.nev2lbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.nev2lbl.Location = new System.Drawing.Point(54, 158);
+            this.nev2lbl.Name = "nev2lbl";
+            this.nev2lbl.Size = new System.Drawing.Size(176, 39);
+            this.nev2lbl.TabIndex = 1;
+            this.nev2lbl.Text = "Játékos2:";
+            this.nev2lbl.Visible = false;
             // 
-            this.keszitbttn.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.keszitbttn.BackColor = System.Drawing.Color.Transparent;
-            this.keszitbttn.FlatAppearance.BorderSize = 3;
-            this.keszitbttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.keszitbttn.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.keszitbttn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.keszitbttn.Location = new System.Drawing.Point(378, 327);
-            this.keszitbttn.Name = "keszitbttn";
-            this.keszitbttn.Size = new System.Drawing.Size(296, 67);
-            this.keszitbttn.TabIndex = 3;
-            this.keszitbttn.Text = "Készítették";
-            this.keszitbttn.UseVisualStyleBackColor = false;
-            this.keszitbttn.Click += new System.EventHandler(this.keszitbttn_Click);
->>>>>>> aad3d80fa83127c63d67b3d32f5aba0b2baaa0b9
+            // nev1lbl
             // 
-            // folytatasbtn
-            // 
-<<<<<<< HEAD
-            this.visszabtn.BackColor = System.Drawing.Color.Transparent;
-            this.visszabtn.FlatAppearance.BorderSize = 3;
-            this.visszabtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.visszabtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.visszabtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.visszabtn.Location = new System.Drawing.Point(454, 605);
-            this.visszabtn.Name = "visszabtn";
-            this.visszabtn.Size = new System.Drawing.Size(154, 49);
-            this.visszabtn.TabIndex = 19;
-            this.visszabtn.Text = "Vissza";
-            this.visszabtn.UseVisualStyleBackColor = false;
-            this.visszabtn.Visible = false;
-            this.visszabtn.Click += new System.EventHandler(this.visszabtn_Click);
-=======
-            this.folytatasbtn.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.folytatasbtn.BackColor = System.Drawing.Color.Transparent;
-            this.folytatasbtn.FlatAppearance.BorderSize = 3;
-            this.folytatasbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.folytatasbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.folytatasbtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.folytatasbtn.Location = new System.Drawing.Point(378, 239);
-            this.folytatasbtn.Name = "folytatasbtn";
-            this.folytatasbtn.Size = new System.Drawing.Size(296, 67);
-            this.folytatasbtn.TabIndex = 2;
-            this.folytatasbtn.Text = "Név megadása";
-            this.folytatasbtn.UseVisualStyleBackColor = false;
->>>>>>> aad3d80fa83127c63d67b3d32f5aba0b2baaa0b9
+            this.nev1lbl.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.nev1lbl.AutoSize = true;
+            this.nev1lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.nev1lbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.nev1lbl.Location = new System.Drawing.Point(54, 72);
+            this.nev1lbl.Name = "nev1lbl";
+            this.nev1lbl.Size = new System.Drawing.Size(176, 39);
+            this.nev1lbl.TabIndex = 0;
+            this.nev1lbl.Text = "Játékos1:";
+            this.nev1lbl.Visible = false;
             // 
             // Form1
             // 
@@ -323,7 +276,6 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.menupanel.ResumeLayout(false);
-            this.menupanel.PerformLayout();
             this.keszitokpnl.ResumeLayout(false);
             this.keszitokpnl.PerformLayout();
             this.ResumeLayout(false);
@@ -345,6 +297,8 @@
         private System.Windows.Forms.Label szevaldlbl;
         private System.Windows.Forms.Label keszitlbl;
         private System.Windows.Forms.Button visszabtn;
+        private System.Windows.Forms.Label nev2lbl;
+        private System.Windows.Forms.Label nev1lbl;
     }
 }
 

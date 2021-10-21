@@ -60,10 +60,8 @@
             this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-<<<<<<< HEAD
-=======
-            this.nextplayertbx = new System.Windows.Forms.TextBox();
->>>>>>> aad3d80fa83127c63d67b3d32f5aba0b2baaa0b9
+
+
             this.player1label = new System.Windows.Forms.Label();
             this.player2label = new System.Windows.Forms.Label();
             this.guna2Button16 = new Guna.UI2.WinForms.Guna2Button();
@@ -72,10 +70,10 @@
             this.guna2CirclePictureBox10 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox11 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox12 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-<<<<<<< HEAD
+
             this.nextplayerlbl = new System.Windows.Forms.Label();
-=======
->>>>>>> aad3d80fa83127c63d67b3d32f5aba0b2baaa0b9
+
+
             this.menupanel.SuspendLayout();
             this.guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox5)).BeginInit();
@@ -492,7 +490,6 @@
             // 
             // guna2CustomGradientPanel1
             // 
-<<<<<<< HEAD
             this.guna2CustomGradientPanel1.Controls.Add(this.nextplayerlbl);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox5);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox6);
@@ -502,8 +499,7 @@
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox14);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox15);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox16);
-=======
->>>>>>> aad3d80fa83127c63d67b3d32f5aba0b2baaa0b9
+
             this.guna2CustomGradientPanel1.Controls.Add(this.menupanel);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox9);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox4);
@@ -733,8 +729,6 @@
             this.guna2CirclePictureBox2.UseTransparentBackground = true;
             // 
             // guna2CirclePictureBox1
-<<<<<<< HEAD
-=======
             // 
             this.guna2CirclePictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
@@ -750,7 +744,6 @@
             this.guna2CirclePictureBox1.UseTransparentBackground = true;
             // 
             // nextplayertbx
->>>>>>> aad3d80fa83127c63d67b3d32f5aba0b2baaa0b9
             // 
             this.guna2CirclePictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
@@ -908,7 +901,6 @@
             this.guna2CirclePictureBox12.TabStop = false;
             this.guna2CirclePictureBox12.UseTransparentBackground = true;
             // 
-<<<<<<< HEAD
             // nextplayerlbl
             // 
             this.nextplayerlbl.AutoSize = true;
@@ -921,8 +913,6 @@
             this.nextplayerlbl.TabIndex = 69;
             this.nextplayerlbl.Text = "label1";
             // 
-=======
->>>>>>> aad3d80fa83127c63d67b3d32f5aba0b2baaa0b9
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);

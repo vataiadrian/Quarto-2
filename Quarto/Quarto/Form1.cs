@@ -18,8 +18,7 @@ namespace Quarto
         {
             InitializeComponent();
             GoFullscreen(true);
-            jatekos1.Visible = false;
-            jatekos2.Visible = false;
+
 
         }
 
@@ -80,15 +79,24 @@ namespace Quarto
             boroslbl.Visible = false;
             vatailbl.Visible = false;
             visszabtn.Visible = false;
-            jatekos1.Visible = false;
-            jatekos2.Visible = false;
+            folytatasbtn.Visible = true;
+            keszitbttn.Visible = true;
+            kilepesbtn.Visible = true;
+            newgameBTTN.Visible = true;
+
         }
 
         private void folytatasbtn_Click(object sender, EventArgs e)
         {
+            visszabtn.Visible = true;
+            nev1lbl.Visible = true;
+            nev2lbl.Visible = true;
             jatekos1.Visible = true;
             jatekos2.Visible = true;
-            visszabtn.Visible = true;
+            folytatasbtn.Visible = false;
+            keszitbttn.Visible = false;
+            kilepesbtn.Visible = false;
+            newgameBTTN.Visible = false;
         }
     }
 }
