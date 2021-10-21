@@ -60,6 +60,10 @@
             this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+<<<<<<< HEAD
+=======
+            this.nextplayertbx = new System.Windows.Forms.TextBox();
+>>>>>>> aad3d80fa83127c63d67b3d32f5aba0b2baaa0b9
             this.player1label = new System.Windows.Forms.Label();
             this.player2label = new System.Windows.Forms.Label();
             this.guna2Button16 = new Guna.UI2.WinForms.Guna2Button();
@@ -68,7 +72,10 @@
             this.guna2CirclePictureBox10 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox11 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox12 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+<<<<<<< HEAD
             this.nextplayerlbl = new System.Windows.Forms.Label();
+=======
+>>>>>>> aad3d80fa83127c63d67b3d32f5aba0b2baaa0b9
             this.menupanel.SuspendLayout();
             this.guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox5)).BeginInit();
@@ -95,16 +102,17 @@
             this.menupanel.Controls.Add(this.menubtn);
             this.menupanel.Controls.Add(this.folytatasbtn);
             this.menupanel.Controls.Add(this.ujjatekbtn);
+            this.menupanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.menupanel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(5)))), ((int)(((byte)(113)))));
             this.menupanel.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(180)))), ((int)(((byte)(245)))));
             this.menupanel.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(40)))), ((int)(((byte)(111)))));
             this.menupanel.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(0)))), ((int)(((byte)(80)))));
             this.menupanel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.menupanel.Location = new System.Drawing.Point(483, 163);
+            this.menupanel.Location = new System.Drawing.Point(0, 0);
             this.menupanel.Name = "menupanel";
             this.menupanel.Quality = 2;
             this.menupanel.ShadowDecoration.Parent = this.menupanel;
-            this.menupanel.Size = new System.Drawing.Size(314, 380);
+            this.menupanel.Size = new System.Drawing.Size(1284, 784);
             this.menupanel.TabIndex = 18;
             this.menupanel.Visible = false;
             // 
@@ -116,7 +124,7 @@
             this.kilepesbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.kilepesbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.kilepesbtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.kilepesbtn.Location = new System.Drawing.Point(9, 272);
+            this.kilepesbtn.Location = new System.Drawing.Point(494, 474);
             this.kilepesbtn.Name = "kilepesbtn";
             this.kilepesbtn.Size = new System.Drawing.Size(296, 67);
             this.kilepesbtn.TabIndex = 4;
@@ -132,7 +140,7 @@
             this.menubtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.menubtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.menubtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.menubtn.Location = new System.Drawing.Point(9, 184);
+            this.menubtn.Location = new System.Drawing.Point(494, 386);
             this.menubtn.Name = "menubtn";
             this.menubtn.Size = new System.Drawing.Size(296, 67);
             this.menubtn.TabIndex = 3;
@@ -148,7 +156,7 @@
             this.folytatasbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.folytatasbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.folytatasbtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.folytatasbtn.Location = new System.Drawing.Point(9, 96);
+            this.folytatasbtn.Location = new System.Drawing.Point(494, 298);
             this.folytatasbtn.Name = "folytatasbtn";
             this.folytatasbtn.Size = new System.Drawing.Size(296, 67);
             this.folytatasbtn.TabIndex = 2;
@@ -163,7 +171,7 @@
             this.ujjatekbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ujjatekbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.ujjatekbtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.ujjatekbtn.Location = new System.Drawing.Point(9, 8);
+            this.ujjatekbtn.Location = new System.Drawing.Point(494, 210);
             this.ujjatekbtn.Name = "ujjatekbtn";
             this.ujjatekbtn.Size = new System.Drawing.Size(296, 67);
             this.ujjatekbtn.TabIndex = 1;
@@ -484,6 +492,7 @@
             // 
             // guna2CustomGradientPanel1
             // 
+<<<<<<< HEAD
             this.guna2CustomGradientPanel1.Controls.Add(this.nextplayerlbl);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox5);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox6);
@@ -493,6 +502,8 @@
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox14);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox15);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox16);
+=======
+>>>>>>> aad3d80fa83127c63d67b3d32f5aba0b2baaa0b9
             this.guna2CustomGradientPanel1.Controls.Add(this.menupanel);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox9);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox4);
@@ -520,6 +531,14 @@
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox10);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox11);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox12);
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox5);
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox6);
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox7);
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox8);
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox13);
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox14);
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox15);
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox16);
             this.guna2CustomGradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(5)))), ((int)(((byte)(113)))));
             this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(180)))), ((int)(((byte)(245)))));
@@ -714,6 +733,24 @@
             this.guna2CirclePictureBox2.UseTransparentBackground = true;
             // 
             // guna2CirclePictureBox1
+<<<<<<< HEAD
+=======
+            // 
+            this.guna2CirclePictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox1.FillColor = System.Drawing.Color.Black;
+            this.guna2CirclePictureBox1.ImageRotate = 0F;
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(951, 326);
+            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox1.ShadowDecoration.Parent = this.guna2CirclePictureBox1;
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(50, 50);
+            this.guna2CirclePictureBox1.TabIndex = 49;
+            this.guna2CirclePictureBox1.TabStop = false;
+            this.guna2CirclePictureBox1.UseTransparentBackground = true;
+            // 
+            // nextplayertbx
+>>>>>>> aad3d80fa83127c63d67b3d32f5aba0b2baaa0b9
             // 
             this.guna2CirclePictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
@@ -871,6 +908,7 @@
             this.guna2CirclePictureBox12.TabStop = false;
             this.guna2CirclePictureBox12.UseTransparentBackground = true;
             // 
+<<<<<<< HEAD
             // nextplayerlbl
             // 
             this.nextplayerlbl.AutoSize = true;
@@ -883,6 +921,8 @@
             this.nextplayerlbl.TabIndex = 69;
             this.nextplayerlbl.Text = "label1";
             // 
+=======
+>>>>>>> aad3d80fa83127c63d67b3d32f5aba0b2baaa0b9
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
