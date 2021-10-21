@@ -82,14 +82,14 @@ namespace Quarto
             if (r.Next(0, 6) > 3)
             {
                 elso = false;
-                nextplayertbx.Font = new Font("Arial", 24);
-                nextplayertbx.Text = player2label.Text;
+                nextplayerlbl.Font = new Font("Arial", 24);
+                nextplayerlbl.Text = player2label.Text;
             }
             else
             {
                 elso = true;
-                nextplayertbx.Font = new Font("Arial", 24);
-                nextplayertbx.Text = player2label.Text;
+                nextplayerlbl.Font = new Font("Arial", 24);
+                nextplayerlbl.Text = player2label.Text;
 
             }
             

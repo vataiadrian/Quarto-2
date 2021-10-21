@@ -18,6 +18,9 @@ namespace Quarto
         {
             InitializeComponent();
             GoFullscreen(true);
+            jatekos1.Visible = false;
+            jatekos2.Visible = false;
+
         }
 
         //design
@@ -61,7 +64,6 @@ namespace Quarto
 
         private void keszitbttn_Click(object sender, EventArgs e)
         {
-            keszitpnl.Visible = true;
             keszitokpnl.Visible = true;
             keszitlbl.Visible = true;
             szevaldlbl.Visible = true;
@@ -72,13 +74,21 @@ namespace Quarto
 
         private void visszabtn_Click(object sender, EventArgs e)
         {
-            keszitpnl.Visible = false;
             keszitokpnl.Visible = false;
             keszitlbl.Visible = false;
             szevaldlbl.Visible = false;
             boroslbl.Visible = false;
             vatailbl.Visible = false;
             visszabtn.Visible = false;
+            jatekos1.Visible = false;
+            jatekos2.Visible = false;
+        }
+
+        private void folytatasbtn_Click(object sender, EventArgs e)
+        {
+            jatekos1.Visible = true;
+            jatekos2.Visible = true;
+            visszabtn.Visible = true;
         }
     }
 }
