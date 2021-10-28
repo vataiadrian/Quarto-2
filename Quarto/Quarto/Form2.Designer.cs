@@ -101,7 +101,7 @@
             this.menupanel.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(40)))), ((int)(((byte)(111)))));
             this.menupanel.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(0)))), ((int)(((byte)(80)))));
             this.menupanel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.menupanel.Location = new System.Drawing.Point(0, 0);
+            this.menupanel.Location = new System.Drawing.Point(200, 425);
             this.menupanel.Name = "menupanel";
             this.menupanel.Quality = 2;
             this.menupanel.ShadowDecoration.Parent = this.menupanel;
