@@ -13,9 +13,11 @@ namespace Quarto
     public partial class Form2 : Form
     {
         static bool elso = true;
-        static Label[,] labelok = new Label[4, 4];
-        static Label[,] labelokvilagos = new Label[4, 2];
-        static Label[,] labeloksotet = new Label[4, 2];
+        static Image[] sotetkepek = new Image[8];
+        static PictureBox[,] nagypicture = new PictureBox[4, 4];
+        static PictureBox[,] vilagospictur = new PictureBox[4, 2];
+        static PictureBox[,] sotetpictur = new PictureBox[4, 2];
+
         public Form2()
         {
             InitializeComponent();
@@ -101,6 +103,11 @@ namespace Quarto
 
         private void generalas()
         {
+            for (int i = 0; i < 8; i++)
+            {
+                sotetkepek[i]=Image.FromFile()
+
+            }
 
             int yrajz = 0;
             int xrajz = 0;
@@ -108,10 +115,10 @@ namespace Quarto
             {
                 for (int j = 0; j < 4; j++)
                 {
-                    labelok[i, j] = new Label();
-                    labelok[i, j].Size = new Size(100, 100);
-                    labelok[i, j].BackColor = Color.FromArgb(127, 127, 127);
-                    labelok[i, j].Name = i + ";" + j;
+                    nagypicture[i, j] = new PictureBox();
+                    nagypicture[i, j].Size = new Size(100, 100);
+                    nagypicture[i, j].BackColor = Color.FromArgb(127, 127, 127);
+                    nagypicture[i, j].Name = i + ";" + j;
 
 
                     switch (i)
@@ -148,18 +155,17 @@ namespace Quarto
                         
                        
                     }
-                    labelok[i, j].Anchor = AnchorStyles.None;
+                    nagypicture[i, j].Anchor = AnchorStyles.None;
                     
-                    labelok[i, j].Location = new System.Drawing.Point(yrajz, xrajz);
-                    labelok[i, j].Click += new System.EventHandler(this.odakatt);
-                    labelok[i, j].Font = new Font("Arial", 32);
-                    labelok[i, j].TextAlign = ContentAlignment.MiddleCenter;
-                    Controls.Add(labelok[i, j]);
-                    labelok[i, j].BringToFront();
+                    nagypicture[i, j].Location = new System.Drawing.Point(yrajz, xrajz);
+                   // nagypicture[i, j].Click += new System.EventHandler(this.odakatt);
+                    
+                    
+                    Controls.Add(nagypicture[i, j]);
+                    nagypicture[i, j].BringToFront();
                 }
             }
-            for (int k = 0; k < 2; k++)
-            {
+            
 
 
                 yrajz = 0;
@@ -168,13 +174,12 @@ namespace Quarto
                 {
                     for (int j = 0; j < 4; j++)
                     {
-                        labelok[i, j] = new Label();
-                        labelok[i, j].Size = new Size(50, 50);
-                        labelok[i, j].BackColor = Color.FromArgb(127, 127, 127);
-                        labelok[i, j].Name = i + ";" + j;
+                        vilagospictur[j, i] = new PictureBox();
+                        vilagospictur[j, i].Size = new Size(50, 50);
+                       vilagospictur[j, i].BackColor = Color.FromArgb(127, 127, 127);
+                        vilagospictur[j, i].Name = i + ";" + j;
 
-                        if (k ==0)
-                        {
+                       
 
 
                             switch (i)
@@ -206,53 +211,91 @@ namespace Quarto
                                 
 
                             }
-                        }
-                        if (k == 1)
-                        {
-                            switch (i)
-                            {
-                                case 0:
-                                    xrajz = 1202;
-                                    break;
-                                case 1:
-                                    xrajz = 1271;
-                                    break;
-                               
-                                
+                        
+                        
 
-                            }
-                            switch (j)
-                            {
-                                case 0:
-                                    yrajz = 370;
-                                    break;
-                                case 1:
-                                    yrajz = 426;
-                                    break;
-                                case 2:
-                                    yrajz = 482;
-                                    break;
-                                case 3:
-                                    yrajz = 538;
-                                    break;
-                                
+                        
+                        vilagospictur[j, i].Anchor = AnchorStyles.None;
 
-                            }
-
-                        }
-                        labelok[i, j].Anchor = AnchorStyles.None;
-
-                        labelok[i, j].Location = new System.Drawing.Point(xrajz, yrajz);
-                       // labelok[i, j].Click += new System.EventHandler(this.idekatt);
-                        labelok[i, j].Font = new Font("Arial", 32);
-                        labelok[i, j].TextAlign = ContentAlignment.MiddleCenter;
-                        Controls.Add(labelok[i, j]);
-                        labelok[i, j].BringToFront();
+                        vilagospictur[j, i].Location = new System.Drawing.Point(xrajz, yrajz);
+                      
+                        vilagospictur[j, i].Font = new Font("Arial", 32);
+                      
+                        Controls.Add(vilagospictur[j, i]);
+                        vilagospictur[j, i].BringToFront();
+                   // kepbeileszt(i,j);
                     }
+                }
+
+            yrajz = 0;
+            xrajz = 0;
+            for (int i = 0; i < 2; i++)
+            {
+                for (int j = 0; j < 4; j++)
+                {
+                    sotetpictur[j, i] = new PictureBox();
+                    sotetpictur[j, i].Size = new Size(50, 50);
+                    sotetpictur[j, i].BackColor = Color.FromArgb(127, 127, 127);
+
+                    sotetpictur[j, i].BackgroundImage = Image.FromFile("sotet1.png");
+                    sotetpictur[j, i].Name = i + ";" + j;
+
+
+
+
+                    
+
+
+                     switch (i)
+                     {
+                         case 0:
+                             xrajz = 1202;
+                             break;
+                         case 1:
+                             xrajz = 1271;
+                             break;
+
+
+
+                     }
+                     switch (j)
+                     {
+                         case 0:
+                             yrajz = 370;
+                             break;
+                         case 1:
+                             yrajz = 426;
+                             break;
+                         case 2:
+                             yrajz = 482;
+                             break;
+                         case 3:
+                             yrajz = 538;
+                             break;
+
+
+                     }
+
+
+                    sotetpictur[j, i].Anchor = AnchorStyles.None;
+
+                   sotetpictur[j, i].Location = new System.Drawing.Point(xrajz, yrajz);
+
+                    sotetpictur[j, i].Font = new Font("Arial", 32);
+
+                    Controls.Add(sotetpictur[j, i]);
+                    sotetpictur[j, i].BringToFront();
+                  //  kepbeileszt(i,j);
                 }
             }
 
 
+
+        }
+
+        private void kepbeileszt(int i,int j)
+        {
+            throw new NotImplementedException();
         }
 
         private void idekatt(object sender, EventArgs e)
@@ -260,38 +303,7 @@ namespace Quarto
             throw new NotImplementedException();
         }
 
-        private void odakatt(object sender, EventArgs e)
-        {
-            Label kattintott = sender as Label;
-            int y = Convert.ToInt32(kattintott.Name.Split(';')[0]);
-            int x = Convert.ToInt32(kattintott.Name.Split(';')[1]);
-            if (labelok[y, x].Text == "")
-            {
-                if (elso)
-                {
-
-                    labelok[y, x].Text = "O";
-                    labelok[y, x].ForeColor = System.Drawing.Color.Red;
-                    nextplayerlbl.Font = new Font("Arial", 24);
-                    nextplayerlbl.Text =player2label.Text;
-                    elso = false;
-                }
-                else
-                {
-                    labelok[y, x].Text = "X";
-                    labelok[y, x].ForeColor = System.Drawing.Color.Blue;
-                    nextplayerlbl.Font = new Font("Arial", 24);
-                    nextplayerlbl.Text = player1label.Text;
-                    elso = true;
-                }
-               // ellenorzes();
-            }
-            else
-            {
-               // kezdonevlbl.Text = "Ne csaljál kis k*cs*g!";
-
-            }
-        }
+        
     }
 }
 
